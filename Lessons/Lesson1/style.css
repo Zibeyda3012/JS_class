@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.divItem{
+    background-color: aqua;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.makeInvisible{
+    display: none;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cardItem{
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.visible{
+    display: block !important;
+}
